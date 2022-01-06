@@ -89,8 +89,6 @@ body {
   width: 400px;
   border-radius: 20px;
   padding-right: 100px;
-}
-.distance {
   margin-left: 150px;
 }
 .get-down {
@@ -98,10 +96,21 @@ body {
 }
 .get-down h1 {
   font-size: 300%;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .get-down p {
   font-size: 200%;
+  margin-bottom: 0;
+  padding-bottom: 30px;
 }
 .fourth-section {
   display: flex;
+}
+.fourth-section img {
+  width: 400px;
+  border-radius: 20px;
+  padding-right: 100px;
+  margin-right: 150px;
+  height: 600px;
 }
