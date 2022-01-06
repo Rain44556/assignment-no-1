@@ -14,9 +14,8 @@ body {
   font-size: 70px;
   margin-left: 10px;
 }
-section {
+.top-banner {
   display: flex;
-  margin-bottom: 100px;
 }
 .half-width {
   width: 50%;
@@ -43,4 +42,23 @@ section {
   color: white;
   font-weight: 700;
   border-radius: 5px;
+}
+.top-banner .half-width p {
+  margin-top: 40px;
+}
+.all-card {
+  display: flex;
+}
+.card {
+  height: 300px;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 30%;
+  border: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card img {
+  height: 100px;
+  width: 100px;
 }
