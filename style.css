@@ -113,6 +113,16 @@ body {
   display: flex;
   padding: 0px 100px;
 }
+.fifth-section {
+  display: flex;
+  padding: 0px 100px;
+}
+.fifth-section .left {
+  margin-top: 150px;
+}
+.fifth-section .left h1 {
+  font-size: 40px;
+}
 .fourth-section img {
   width: 400px;
   border-radius: 20px;
