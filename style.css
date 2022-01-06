@@ -1,6 +1,5 @@
 body {
   font-family: "poppins", sans-serif;
-  margin: 0px 100px;
   align-items: center;
 }
 
@@ -15,6 +14,7 @@ body {
   margin-left: 10px;
 }
 .top-banner {
+  padding: 0px 100px;
   display: flex;
 }
 .half-width {
@@ -46,6 +46,9 @@ body {
 .top-banner .half-width p {
   margin-top: 40px;
 }
+.middle-section {
+  padding: 0px 100px;
+}
 .all-card {
   display: flex;
 }
@@ -71,7 +74,7 @@ body {
   text-align: left;
   width: 300px;
 }
-.middle-section h1 {
+.middle-section h2 {
   font-size: 50px;
   text-align: center;
 }
@@ -81,6 +84,7 @@ body {
 }
 .Third-section {
   display: flex;
+  padding: 0px 100px;
 }
 .Third-section {
   margin-top: 70px;
@@ -90,6 +94,7 @@ body {
   border-radius: 20px;
   padding-right: 100px;
   margin-left: 150px;
+  padding-bottom: 20px;
 }
 .get-down {
   margin-top: 100px;
@@ -106,6 +111,7 @@ body {
 }
 .fourth-section {
   display: flex;
+  padding: 0px 100px;
 }
 .fourth-section img {
   width: 400px;
@@ -113,4 +119,19 @@ body {
   padding-right: 100px;
   margin-right: 150px;
   height: 600px;
+}
+.last-section {
+  height: 100px;
+  background-color: black;
+  width: 100%;
+}
+.last-section h1 {
+  font-family: "Lobster", cursive;
+  color: white;
+  text-align: center;
+}
+footer p {
+  font-size: 10px;
+  color: white;
+  text-align: center;
 }
